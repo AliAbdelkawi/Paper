@@ -1,0 +1,18 @@
+This folder includes three Python scripts and a dataset used for model development and comparison.
+
+1. Database File
+The Excel file contains two identical sheets, each providing the dataset used for model development.
+
+The dataset includes input features and target values for training and evaluation.
+
+2. Model Training Scripts
+Each script trains a predictive model and outputs a .pkl file containing the saved model.
+
+Comparison between ML models-gypsum Tind.py
+Compares the performance of different machine learning algorithms—including Decision Tree, Random Forest, XGBoost, and Gradient Boosting—over 100 random states.
+
+Smoluchowski model-gypsum Tind.py
+Implements a mechanistic model based on the Smoluchowski aggregation theory. The dataset is fitted to this model to extract interfacial energy values.
+
+Integrated machine learning and Smoluchowski model-gypsum Tind.py
+Integrates the machine learning models with domain knowledge from the Smoluchowski model. It uses the same input features as the comparison script, with additional feature derived from the Smoluchowski model ( interfacial energy).
